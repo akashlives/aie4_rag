@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "aie4"
+version = "0.1.0"
+description = ""
+authors = ["Akash Shetty <akash.shetty@iicontent.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+python-dotenv = "^1.0.1"
+langchain-community = "^0.2.12"
+pypf = "^0.9.6"
+openai = "^1.42.0"
+pandas = "^2.2.2"
+scikit-learn = "^1.5.1"
+ipykernel = "^6.29.5"
+matplotlib = "^3.9.2"
+plotly = "^5.23.0"
+pypdf = "^4.3.1"
+langchain-experimental = "^0.0.64"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.2"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
